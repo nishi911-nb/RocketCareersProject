@@ -1,0 +1,122 @@
+body{
+    background-color: #2f1994;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+/* NAVBAR */
+.navbar{
+    display: flex; 
+    height: 8rem; 
+    width: 55%; 
+    margin-left: 25%;
+}
+.logo{
+    color: white; 
+    font-size: 1.2rem;
+    margin-top: 3rem; 
+    margin-right: 38%; 
+    font-weight: 600;
+}
+.nav-links, .nav-btn, .text-btn{
+    margin-top: 3rem;
+}
+.nav-links > a{
+    text-decoration: none;
+    font-size: 1rem
+}
+.nav-btn > a, .text-btn > a{
+    text-decoration: none; 
+    color: white; 
+    font-size: 1rem; 
+    background-color: #ea3b7b; 
+    padding: 0.6rem 1.5rem;
+    border-radius: 1.7rem;
+}
+/* HERO */
+.hero{
+    width: 55%;
+    height: 32rem;
+    margin-left: 25%;
+    display: flex;
+}
+/* BOX 1 */
+.box1{
+    width: 45%;
+    margin-right: 8%;
+}
+.heading{
+    font-size: 3rem; 
+    color: white; 
+    font-weight: 600;
+}
+.text{
+    margin-top: 1.5rem; 
+    font-size: 1.2rem; 
+    color: white;
+}
+/* BOX 2 */
+.box2{
+    background-color: white; 
+    border-radius: 0.5rem; 
+    width: 45%;
+}
+.form-heading{
+    font-size: 1.5rem; 
+    font-weight: 700; 
+    text-align: center; 
+    color: #24175f;
+    margin-top: 2.5rem;
+}
+input[type=email], input[type=password] {
+    border-radius: 1.4rem;
+    border-color:#d6d4d8; 
+    height: 2.4rem; 
+    width: 70%; 
+    margin-left: 14%; 
+    border-style: solid;
+    margin-top: 1rem;
+}
+.checkbox{
+    margin-top: 1.8rem; 
+    margin-left: 3.3rem;
+}
+.agreement{
+    border: 0.2rem solid #f2d05f; 
+    width: fit-content; 
+    margin-top: 1.6rem; 
+    color: #b9b8ba; 
+    font-size: 0.8rem;
+}
+input[type=submit]{
+    background-color: #482be7; 
+    height: 2.6rem; 
+    width: 16.5rem;
+    border-radius: 1.3rem; 
+    border-style: none;
+    text-decoration: none; 
+    color: white; 
+    font-size: 1.2rem;
+}
+.break-line{
+    display: flex; 
+    margin-left: 3.3rem; 
+    color: #b9b8ba;
+}
+.login-btn{
+    background-color: #1ca0f3; 
+    width: 16.5rem; 
+    margin: 1rem 0rem 1rem 3.3rem;  
+    text-align: center; 
+    height: 2.6rem;
+    border-radius: 1.3rem;
+}
+.login-btn > a{
+    text-decoration: none; 
+    color: white; 
+    line-height: 2.5rem;
+}
+.haveAccount{
+    font-size: 1rem; 
+    font-weight: 600; 
+    margin-left: 4rem; 
+    margin-top: 1rem;
+}
